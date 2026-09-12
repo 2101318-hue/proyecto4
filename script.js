@@ -9,18 +9,9 @@ const productos = [
         precio:4500,
         rating:5,
         descripcion:"Laptop de alto rendimiento con RTX 4070 y Ryzen 9.",
-        imagen:"https://placehold.co/400x250?text=Laptop"
+        imagen:"https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg"
     },
 
-    {
-        id:1,
-        nombre:"Laptop Gamer",
-        categoria:"Laptop",
-        precio:4500,
-        rating:5,
-        descripcion:"Laptop de alto rendimiento con RTX 4070 y Ryzen 9.",
-        imagen:"https://placehold.co/400x250?text=Laptop"
-    },
 
     {
         id:2,
@@ -29,7 +20,7 @@ const productos = [
         precio:5200,
         rating:4,
         descripcion:"Ideal para estudiantes y desarrolladores.",
-        imagen:"https://placehold.co/400x250?text=MacBook"
+        imagen:"https://oxfordstore.co/cdn/shop/files/MacBookAirM2_13_256.jpg?v=1726971575"
     },
 
     {
@@ -39,7 +30,7 @@ const productos = [
         precio:4800,
         rating:5,
         descripcion:"El smartphone más potente de Apple.",
-        imagen:"https://placehold.co/400x250?text=iPhone"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesd4LpliSUx6uzYiVFElytgIqVSwvoKZrouF4Uzly7A&s=10"
     },
 
     {
@@ -49,7 +40,7 @@ const productos = [
         precio:4200,
         rating:4,
         descripcion:"Pantalla AMOLED y excelente cámara.",
-        imagen:"https://placehold.co/400x250?text=Samsung"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1Oo13yHLhwyXOnZBhE2bvK1Dgm-vtUSjbAlSRNxT5Q&s=10"
     },
 
     {
@@ -59,7 +50,7 @@ const productos = [
         precio:1800,
         rating:5,
         descripcion:"Consola híbrida portátil.",
-        imagen:"https://placehold.co/400x250?text=Switch"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscj4-EBWb6qTHY375p7ZylcOA7iX0ikepGP_h06Eo4F4BFXQCDvPw_HBP&s=10"
     },
 
     {
@@ -69,7 +60,7 @@ const productos = [
         precio:2800,
         rating:5,
         descripcion:"Consola de nueva generación.",
-        imagen:"https://placehold.co/400x250?text=PS5"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFxlGOOFfvhuycrCMXw0llo_NYp2Ky6luWrjP6UNbUg&s=10"
     },
 
     {
@@ -79,7 +70,7 @@ const productos = [
         precio:2700,
         rating:4,
         descripcion:"La consola más potente de Microsoft.",
-        imagen:"https://placehold.co/400x250?text=Xbox"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZC26IZffHAsL2M_YOuW931bH-bPI7dRw9A4OFBg25Q&s=10"
     },
 
     {
@@ -89,7 +80,7 @@ const productos = [
         precio:280,
         rating:5,
         descripcion:"Mouse gamer de alta precisión.",
-        imagen:"https://placehold.co/400x250?text=Mouse"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sdfu1fGgcYomEDcJQPcw-OJ0Qwp6Vy1NyMx3Tr8A8A&s"
     },
 
     {
@@ -99,7 +90,7 @@ const productos = [
         precio:450,
         rating:4,
         descripcion:"Teclado RGB con switches mecánicos.",
-        imagen:"https://placehold.co/400x250?text=Teclado"
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8BhMDW6Kf5cSxfjdK2nSDg8fSuf7CdNg66WuwNLoVd9IBlhQovbsaWI&s=10"
     },
 
     {
@@ -109,7 +100,7 @@ const productos = [
         precio:1500,
         rating:5,
         descripcion:"27 pulgadas, 165Hz.",
-        imagen:"https://placehold.co/400x250?text=Monitor"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGidUqkAvSzgemAnqnfyMK3CVLvE4GqNw5n34W1WOciw&s=10"
     },
 
     {
@@ -119,7 +110,7 @@ const productos = [
         precio:2500,
         rating:5,
         descripcion:"PC portátil para videojuegos.",
-        imagen:"https://placehold.co/400x250?text=Steam+Deck"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuSQyKsg5vRUwNH0b8wD50yd2jwiaqfWSrCHQWD8QgZw&s=10"
     },
 
     {
@@ -129,7 +120,7 @@ const productos = [
         precio:1200,
         rating:4,
         descripcion:"Audio inalámbrico premium.",
-        imagen:"https://placehold.co/400x250?text=AirPods"
+        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyqdxJDqGwB2biTx3NIrahW73a9xvJLuUU8_XQz0-M5Q&s=10"
     }
 
 ];
@@ -221,6 +212,7 @@ function mostrarDetalle(id){
         <span class="detalle-categoria">
         
              ${producto.categoria}
+             
         </span>
 
         <div class="detalle-rating">
